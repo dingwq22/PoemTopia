@@ -1,0 +1,438 @@
+@import '~antd/dist/antd.css';
+
+.ml30 {
+  margin-left: 30px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 100px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vmin;
+}
+.App-userIcon {
+  position: absolute; 
+  right: 30px;
+  top: 30px;
+}
+
+.App-header {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-searchInput {
+  height: 100px;
+  padding-left:15%;
+  padding-right:15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-forumIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-instructText {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-userIcon {
+  height: 100px;
+}
+
+.Login-buttons {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Forum-back {
+  position: absolute; 
+  left: 30px;
+  top: 30px;
+}
+
+.Forum-header {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Forum-userIcon {
+  position: absolute; 
+  right: 30px;
+  top: 30px;
+}
+
+.Forum-post {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Forum-post-item {
+  display: flex;
+  width: 80%;
+}
+
+.Forum-main {
+  display: flex;
+}
+
+.Forum-highlights {
+  width: 50%;
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+} 
+
+.Forum-highlightsBorder {
+  border-radius: 10px;
+}
+
+.ant-list {
+  width: 100%;
+}
+
+.Forum-highlights-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Forum-highlights-originalPoem {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font: 20px arial, bold;
+}
+
+.Forum-highlights-contributor {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font: 10px arial;
+}
+
+.Forum-discussions {
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+.Forum-discussionBorder {
+  border-radius: 10px;
+}
+
+.Forum-discussions-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Forum-discussions-question{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font: 15px arial, bold;
+}
+
+.Forum-discussions-questionContributor{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.Forum-discussions-replyContributor{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.Forum-discussions-likes{
+  margin-left: 10px;
+}
+
+
+.Searchbox{
+    height: 100px;
+    padding-left:10%;
+    padding-right:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.SearchCharacter-result{
+  padding-left:10%;
+  padding-right:10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.SearchResult{
+  padding-left:10%;
+  padding-right:10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchVerse-instructText {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Post {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.Post-title {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Post-userIcon {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Post-comment{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: right;
+}
+
+.Post-buttom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: right;
+}
+
+.Post-discussion {
+  /* padding: 5%; */
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: right;
+}
+
+
+
+.Myhomepage{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.Myhomepage-logout{
+  /* display: flex;
+  width: 96%;
+  justify-content: flex-end; */
+  position: absolute; 
+  right: 17px;
+}
+
+.Myhomepage-card{
+  width: 350px;
+  height: 100px;
+}
+
+.Myhomepage-volunteer{
+  /* position: absolute; 
+  right: 10%;
+  top: 105px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.Myhomepage-icons{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+
+.Myhomepage-userIcon{
+  height: 80px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Myhomepage-friends{
+  height: 80px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Volunteer{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.Volunteer-header {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin); 
+    color: black;
+}
+
+
+.VolunteerMain{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+}
+
+.VolunteerMain-prompts {
+  display: flex;
+}
+
+.VolunteerMain-header {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); 
+  color: black;
+}
+
+.VolunteerMain-icons{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+
+.VolunteerMain-userIcon{
+  height: 80px;
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.VolunteerMain-name{
+  height: 80px;
+  width: 140px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.VolunteerApply {
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-form {
+  width: 100%;
+}
+
+.Navibar{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 0 2px 10px 0 rgba(0,0,0,.1); */
+}
+
+.Navibar-user {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
